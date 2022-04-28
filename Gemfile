@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "5.2.7.1"
 
 # Legacy Rails features, remove me!
 # responders (class level)
@@ -63,9 +63,9 @@ gem "rack-cors", "1.1.1", require: "rack/cors"
 gem "autoprefixer-rails",     "10.2.5.1"
 gem "bootstrap-sass",         "3.4.1"
 gem "bootstrap-switch-rails", "3.3.3" # 3.3.4 and 3.3.5 is broken, see https://github.com/Bttstrp/bootstrap-switch/issues/691
-gem "compass-rails",          "3.1.0"
-gem "sass-rails",             "5.0.7"
-gem "sprockets-rails",        "3.2.2"
+gem "compass-rails", "3.1.0"
+gem "sass-rails", "5.0.7"
+gem "sprockets-rails", "3.2.2"
 
 # Database
 
@@ -94,10 +94,10 @@ gem "entypo-rails", "3.0.0"
 # JavaScript
 
 gem "handlebars_assets", "0.23.9"
-gem "jquery-rails",      "4.4.0"
-gem "jquery-ui-rails",   "5.0.5"
-gem "js-routes",         "1.4.14"
-gem "js_image_paths",    "0.1.1"
+gem "jquery-rails", "4.4.0"
+gem "jquery-ui-rails", "5.0.5"
+gem "js-routes", "1.4.14"
+gem "js_image_paths", "0.1.1"
 gem "sprockets-es6",     "0.9.2"
 
 source "https://gems.diasporafoundation.org" do
@@ -135,14 +135,14 @@ gem "markdown-it-html5-embed", "1.0.0"
 
 gem "http_accept_language", "2.1.1"
 gem "i18n-inflector-rails", "1.0.7"
-gem "rails-i18n",           "5.1.3"
+gem "rails-i18n", "5.1.3"
 
 # Mail
 
 gem "markerb",             "1.1.0"
 
 # Map
-gem "leaflet-rails",       "1.7.0"
+gem "leaflet-rails", "1.7.0"
 
 # Parsing
 
@@ -189,10 +189,10 @@ gem "typhoeus",           "1.4.0"
 
 # Views
 
-gem "gon",                     "6.4.0"
+gem "gon", "6.4.0"
 gem "hamlit",                  "2.15.0"
-gem "mobile-fu",               "1.4.0"
-gem "rails-timeago",           "2.19.1"
+gem "mobile-fu", "1.4.0"
+gem "rails-timeago", "2.19.1"
 gem "will_paginate",           "3.3.0"
 
 # Logging
@@ -300,7 +300,7 @@ group :development, :test do
   gem "jasmine",                   "3.7.0"
   gem "jasmine-jquery-rails",      "2.0.3"
   gem "rails-assets-jasmine-ajax", "4.0.0", source: "https://gems.diasporafoundation.org"
-  gem "sinon-rails",               "1.15.0"
+  gem "sinon-rails", "1.15.0"
 
   # For `assigns` in controller specs
   gem "rails-controller-testing", "1.0.5"
