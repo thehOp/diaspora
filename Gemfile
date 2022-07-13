@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "rails", "5.2.6"
+gem "rails", "5.2.8.1"
 
 # Legacy Rails features, remove me!
 # responders (class level)
